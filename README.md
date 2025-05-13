@@ -1,5 +1,13 @@
 # Advanced Agentic RAG for NADRA Docs
 
+INITIAL DATA PREPARATION : 
+1 - https://www.nadra.gov.pk/nadra-services-charter/ : obtained pdf file 
+2 - performed ocr using mistral ocr : https://huggingface.co/spaces/merterbak/Mistral-OCR 
+3 - copied the md content and created a md file and pasted it there
+4 - split the data.md complete file into different sub md files and placed it in raw folder. 
+5 - the md files which contains tables are converted to csv files (because table structure is not corectly parsed when doing embeddings with md file)
+
+
 Offline-first retrieval-augmented generation using local Ollama models
 (Granite 3.3 for reasoning, bge-m3 for embeddings) + per-file FAISS HNSW indices + an analyst layer for self-correction.
 
