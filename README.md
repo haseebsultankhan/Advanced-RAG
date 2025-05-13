@@ -1,15 +1,13 @@
 # Advanced Agentic RAG for NADRA Docs
 
-## INITIAL DATA PREPARATION : 
-1 - https://www.nadra.gov.pk/nadra-services-charter/ : obtained pdf file 
-2 - performed ocr using mistral ocr : https://huggingface.co/spaces/merterbak/Mistral-OCR 
-3 - copied the md content and created a md file and pasted it there
-4 - split the data.md complete file into different sub md files and placed it in raw folder. 
-5 - the md files which contains tables are converted to csv files (because table structure is not corectly parsed when doing embeddings with md file)
+## Initial Data Preparation:
+1. Obtained PDF file from [NADRA Services Charter](https://www.nadra.gov.pk/nadra-services-charter/).
+2. Performed OCR using Mistral OCR: [Mistral-OCR on Hugging Face](https://huggingface.co/spaces/merterbak/Mistral-OCR).
+3. Copied the Markdown content and created a `.md` file, pasting the content there.
+4. Split the `data.md` file into different sub `.md` files and placed them in the `raw` folder.
+5. Converted `.md` files containing tables to `.csv` files (because table structure is not correctly parsed when doing embeddings with `.md` files).
 
-
-Offline-first retrieval-augmented generation using local Ollama models
-(Granite 3.3 for reasoning, bge-m3 for embeddings) + per-file FAISS HNSW indices + an analyst layer for self-correction.
+Offline-first retrieval-augmented generation using local Ollama models (Granite 3.3 for reasoning, bge-m3 for embeddings) + per-file FAISS HNSW indices + an analyst layer for self-correction.
 
 ---
 
@@ -44,7 +42,7 @@ ollama serve                # starts the local REST server (default :11434)
 | Embeddings            | bge-m3    | `ollama pull bge-m3`     |
 | LLM / router / analyst| granite3.3| `ollama pull granite3.3` |
 
-Both are quantised (≈ 1.2 GB + 4.9 GB) and run fully offline.
+Both are quantized (≈ 1.2 GB + 4.9 GB) and run fully offline.
 
 ## 3. Project Tree
 
@@ -118,4 +116,3 @@ Aliases (e.g., “ISB → Islamabad”, “KHI → Karachi”) are rebuilt autom
 - **REST API** – wrap `main.py` with FastAPI to serve `/ask?q=…`.
 - **Reranking** – bolt on ColBERT-v2 after FAISS for better semantics.
 - **UI** – feed the API into Streamlit or a React dashboard.
-
