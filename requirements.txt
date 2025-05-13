@@ -1,0 +1,11 @@
+# Core libs
+numpy==1.26.4
+pandas
+requests
+pyyaml
+tiktoken                # token counting for chunker
+faiss-cpu             # HNSW index
+ollama                 # local LLM & embedding wrapper
+langchain-core        # lightweight helpers (no open-api keys)
+langchain-community
+python-dotenv          # (optional) env-file loading
