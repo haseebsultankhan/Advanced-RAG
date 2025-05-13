@@ -1,6 +1,6 @@
 # Advanced Agentic RAG for NADRA Docs
 
-INITIAL DATA PREPARATION : 
+## INITIAL DATA PREPARATION : 
 1 - https://www.nadra.gov.pk/nadra-services-charter/ : obtained pdf file 
 2 - performed ocr using mistral ocr : https://huggingface.co/spaces/merterbak/Mistral-OCR 
 3 - copied the md content and created a md file and pasted it there
