@@ -1,0 +1,5 @@
+# PREAMBLE 
+
+National Database and Registration Authority (NADRA) was established pursuant to NADRA Ordinance 2000 ("Ordinance"), as an autonomous statutory corporate body for the registration of all persons and things and for the establishment and maintenance of multipurpose databases, data warehouses, networking, interfacing of databases register persons and things and related facilities and services and matters connected therewith and ancillary thereto.
+
+NADRA has been mandated to provide a new, improved, and modernized registration and database system attuned to the emergent need of time for its multiple beneficial uses and applications in efficiently and effectively running the affairs of the state and the general public. Thereby it is achieving the goals of good governance, public service and minimizing scope for corruption and inefficiency.

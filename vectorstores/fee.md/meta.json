@@ -1,0 +1,20 @@
+[
+  {
+    "id": "04efdcce9a3c97b1",
+    "file": "fee.md",
+    "seq": 0,
+    "text": "# 8.4. FEE: \n\nThe Fee structure as effective as of 16 Sep 2024 for various products is given below. The Updated list may be checked from the NADRA website: https://www.nadra.gov.pk/fee-structure.\n\n| Fee Details of CNIC as of 16 Sep 2024 (in PKR) |  |  |  |\n| :--: | :--: | :--: | :--: |\n| Category/Type | Priority |  |  |\n|  | Normal | Urgent | Executive |\n| New CNIC | 0 | 1,150 | 2,150 |\n| CNIC Modification | 400 | 1,150 | 2,150 |\n| CNIC Duplicate | 400 | 1,150 | 2,150 |\n| CNIC Renewal | 400 | 1,150 | 2,150 |\n| New Smart NIC | 750 | 1,500 | 2,500 |\n| Smart NIC Modification | 750 | 1,500 | 2,500 |\n| Smart NIC Duplicate | 750 | 1,500 | 2,500 |\n| Smart NIC Renewal | 750 | 1,500 | 2,500 |\n| CNIC Cancellation (due to death) | 0 | - | - |\n| CRC New/Duplicate/Modification | 50 | - | 500 |\n| FRC | - | - | 1,000 |\n\n\n| Fee Details of NICOP as of 16 Sep 2024 (in USD*) |  |  |  |\n| :--: | :--: | :--: | :--: |\n| Category/Type <br> Zone A (USA and Europe) | Priority |  |  |\n|  | Normal | Urgent | Executive |\n| New NICOP | 36 | 54 | 72 |\n| NICOP Modification | 36 | 54 | 72 |\n| NICOP Duplicate | 36 | 54 | 72 |\n| NICOP Renewal | 36 | 54 | 72 |\n| New Smart NICOP | 39 | 57 | 75 |\n| Smart NICOP Modification | 39 | 57 | 75 |\n| Smart NICOP Duplicate | 39 | 57 | 75 |\n| Smart NICOP Renewal | 39 | 57 | 75 |"
+  },
+  {
+    "id": "04ad539ea22d9906",
+    "file": "fee.md",
+    "seq": 1,
+    "text": "\n| Fee Details of NICOP as of 16 Sep 2024 (in USD*) |  |  |  |\n| :--: | :--: | :--: | :--: |\n| Category/Type <br> Zone B (Middle East and Africa) | Priority |  |  |\n|  | Normal | Urgent | Executive |\n| New NICOP | 17 | 27 | 37 |\n| NICOP Modification | 17 | 27 | 37 |\n| NICOP Duplicate | 17 | 27 | 37 |\n| NICOP Renewal | 17 | 27 | 37 |\n| New Smart NICOP | 20 | 30 | 40 |\n| Smart NICOP Modification | 20 | 30 | 40 |\n| Smart NICOP Duplicate | 20 | 30 | 40 |\n| Smart NICOP Renewal | 20 | 30 | 40 |\n| Fee Details of Smart POC as of 16 Sep 2024 (in USD*) |  |  |  |\n| Category/Type | Priority |  |  |\n|  | Normal | Urgent | Executive |\n| New POC | 150 | 200 | 200 |\n| POC Modification | 200 | 250 | 300 |\n| POC Duplicate | 200 | 250 | 300 |\n| POC Renewal | 150 | 200 | 200 |\n| POC Cancellation due to Death / Divorce | 5 |  |  |\n| POC Cancellation due to surrender of Nationality | 15 |  |  |\n\n* Fee may be paid in PKR, based on the official conversion rate applicable on the application date.\n\n\n# 8.5. MODE OF PAYMENT: \n"
+  },
+  {
+    "id": "5f5d4e7902aa47fc",
+    "file": "fee.md",
+    "seq": 2,
+    "text": "Fee and service charges can be submitted through the following modes of payments. For further details, visit NADRA web site at the link: https://www.nadra.gov.pk/paymentguidelines:-\n\n- Cash\n- Credit Card\n- Debit Card\n- e-Sahulat Franchise\n- Easypaisa\n- JazzCash"
+  }
+]
